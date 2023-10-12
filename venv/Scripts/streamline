@@ -1,0 +1,7 @@
+#!C:\Users\pvayu\project_mlstocks\venv\Scripts\python.exe
+
+import sys
+from streamline.cli import streamline_command
+
+if __name__ == '__main__':
+    streamline_command(sys.argv[1:])
